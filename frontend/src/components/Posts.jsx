@@ -54,9 +54,9 @@ export const Posts = () => {
 
         return (
           <div className="col-md-2 mb-3 align-center " key={_id}>
-            <div className="card border border-2 border-dark rounded " >
+            <div className="card border border-2 border-white rounded  " >
               <ul className="list-group list-group-flush">
-                <li className="list-group-item fw-bold">
+                <li className="list-group-item fw-bold bg-dark text-white  rounded">
                   <div>Name: {client_name}</div>
                   <div>Amount: {amount_ac}</div>
                   <div>Account No: {acc_no}</div>

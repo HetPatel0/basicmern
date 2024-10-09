@@ -24,7 +24,7 @@ export const Users = () => {
     }, []);
 
     return (
-        <div className="container">
+        <div className="container m-5">
             <div className="row">
                 {
                     data.length > 0 ? (

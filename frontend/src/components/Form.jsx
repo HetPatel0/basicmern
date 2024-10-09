@@ -76,9 +76,9 @@ export const Form = ({ data, setData, updateData, setUpdateData }) => {
     };
 
     return (
-        <form onSubmit={submition} className="d-flex flex-row p-3 m-5 border border-dark w-50">
-            <div className="d-flex flex-row">
-                <label className="form-label m-1">Client Name</label>
+        <form onSubmit={submition} className="d-flex flex-row p-3 m-5 border border-dark w-50 text-white bg-success rounded">
+            <div className="d-flex flex-row bg-success ">
+                <label className="form-label m-1 bg-success">Client Name</label>
                 <input
                     type="text"
                     className="form-control w-50"
@@ -87,8 +87,8 @@ export const Form = ({ data, setData, updateData, setUpdateData }) => {
                     onChange={handle}
                 />
             </div>
-            <div className="d-flex flex-row">
-                <label className="form-label m-1">Account No</label>
+            <div className="d-flex flex-row bg-success">
+                <label className="form-label m-1 bg-success">Account No</label>
                 <input
                     type="number"
                     className="form-control w-50"
@@ -97,8 +97,8 @@ export const Form = ({ data, setData, updateData, setUpdateData }) => {
                     onChange={handle}
                 />
             </div>
-            <div className="d-flex flex-row">
-                <label className="form-label m-1">Amount</label>
+            <div className="d-flex flex-row bg-success">
+                <label className="form-label m-1 bg-success">Amount</label>
                 <input
                     type="number"
                     className="form-control w-50"
