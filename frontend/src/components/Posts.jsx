@@ -37,7 +37,7 @@ export const Posts = () => {
 
 
   useEffect(() => {
-    getPostData();
+    getPostData().then();
 
 
   }, []);
